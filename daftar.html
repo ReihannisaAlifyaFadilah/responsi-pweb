@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Game - Shinobi Arena</title>
+    <link rel="stylesheet" href="daftar.css">
+</head>
+<body>
+    <div class="navbar">
+			
+        <nav>
+            <ul>
+                <li><a href="home.html" class="menu">Home</a></li>
+                <li><a href="about.html" class="menu">About</a></li>
+                <li><a href="daftar.html" class="menu">Daftar</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <h1>Shinobi Arena: Ultimate Jutsu Showdown</h1>
+    </header>
+
+    <main>
+        <section id="game-list">
+            <h2>Daftar Game</h2>
+            <div class="game-container">
+                <div class="game-card">
+                    <img src="gambar/game1.jpg" alt="Game 1">
+                    <h3>Game 1: Ninja Adventure</h3>
+                    <p>Deskripsi: Petualangan ninja yang menegangkan di dunia tersembunyi.</p>
+                    <p>Harga: IDR 300.000</p>
+                    <form action="buy.php" method="post">
+                        <input type="hidden" name="ninja_name" value="Game 1: Ninja Adventure">
+                        <button type="submit">Beli</button>
+                    </form>
+                </div>
+                <div class="game-card">
+                    <img src="gambar/game2.jpg" alt="Game 2">
+                    <h3>Game 2: Shinobi Showdown</h3>
+                    <p>Deskripsi: Pertarungan ninja epik dengan jurus pamungkas.</p>
+                    <p>Harga: IDR 400.000</p>
+                    <form action="buy.php" method="post">
+                        <input type="hidden" name="ninja_name" value="Game 2: Shinobi Showdown">
+                        <button type="submit">Beli</button>
+                    </form>
+                </div>
+                <div class="game-card">
+                    <img src="gambar/game3.jpg" alt="Game 3">
+                    <h3>Game 3: Ultimate Ninja Battle</h3>
+                    <p>Deskripsi: Pertempuran ninja tanpa batas untuk menentukan yang terhebat.</p>
+                    <p>Harga: IDR 500.000</p>
+                    <form action="buy.php" method="post">
+                        <input type="hidden" name="ninja_name" value="Game 3: Ultimate Ninja Battle">
+                        <button type="submit">Beli</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

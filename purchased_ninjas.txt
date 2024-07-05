@@ -1,0 +1,11 @@
+${ninja.name}
+${ninja.name}
+
+${ninja.name}
+${ninja.name}
+Game 1: Ninja Adventure
+Game 3: Ultimate Ninja Battle
+Game 2: Shinobi Showdown
+Game 1: Ninja Adventure
+Game 1: Ninja Adventure
+Game 3: Ultimate Ninja Battle
